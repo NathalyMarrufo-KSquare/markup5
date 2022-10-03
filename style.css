@@ -1,0 +1,209 @@
+.body-Cont{
+    background-color: white;
+    display: grid;
+    justify-content: center;
+}
+
+.nav-bar{
+    justify-content: space-around;
+    background-color: white;
+    width: 1150px;
+    display: flex;
+    border-bottom-color: rgba(128, 128, 128, 0.355);
+    border-bottom-style: solid;
+}
+
+.logo-Des{
+    font-size: 25px;
+    margin-right: initial;
+    width: fit-content;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bolder;
+
+}
+
+.nav-item{
+   width: 500px;
+    list-style:none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 350px;
+    font-family: 'Kanit', sans-serif;
+    color: gray;
+}
+
+.material-symbols-outlined{
+    line-height: 2;
+    color: gray;
+}
+
+.profile-Cont{
+    margin-left: 20px;
+}
+
+.profile-Des{
+    height: 50px;
+    width: fit-content;
+    border-radius: 50%;
+}
+
+.shop-cont{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1150px;
+    padding-top: 100px;
+}
+
+.image-Big-Cont{
+    text-align: center;
+
+}
+
+.images-Holder{
+    margin-left: 150px;
+    width: 370px;
+    align-content: center;
+
+}
+
+
+.big-Img{
+    width :370px;
+    border-radius: 10px;
+}
+
+.mini-Hold{
+    justify-content: space-around;
+    display: flex;
+}
+
+.mini-Img{
+    height: 90px;
+    border-radius: 10px;
+}
+
+.selected-Img{
+    filter: opacity(0.5);    
+    border-style: solid;
+    color: rgba(255, 0, 106, 0.556);
+}
+
+.description-Holder{
+    margin-left: 60px;
+    margin-right: 150px;
+    width: 400px;
+    height: 400px;
+}
+
+.desc1{
+    font-family: 'Staatliches', cursive;
+    color: purple;
+    font-size: 18px;
+    margin-block-end: 0px;
+}
+
+.name-Desc{
+    margin-block-start: 9px;
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.desc-Des{
+    font-family: 'League Spartan', sans-serif;
+    color: gray;
+    margin-block-end: 0px;
+}
+
+.price-Cont{
+    display: flex;
+    align-items: center;
+}
+
+.price1{
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'League Spartan', sans-serif;
+    width: fit-content;
+    margin-right: 25px;
+    margin-block-end: 4px;
+}
+
+.price2{
+    color: purple;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'League Spartan', sans-serif;
+    background-color: rgba(237, 179, 245, 0.727);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.orign-Price{
+    color: gray;
+    text-decoration: line-through;
+    margin-block-start: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.add-Contain{
+    margin-top:40px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.handle-counter{
+    padding-top: 6px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    justify-content: space-around;
+}
+
+.counter-Btn{
+    height: 30px;
+    width: 30px;
+    border: none;
+    background-color: aliceblue;
+    font-size: 20px;
+    color: rgb(206, 10, 206);
+    font-weight: bolder;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.input-Box{
+    width: 30px;
+    text-align: center;
+    border: none;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'League Spartan', sans-serif;
+    background-color: aliceblue;
+}
+
+.add-Btn{
+    width: 190px;
+    padding-left: 15px;
+    padding-right: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 7px;
+    border: none;
+    background-color: purple;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.shop-Btn{
+    font-size: 14px;
+    margin-inline-end: 15px;
+    color: white;
+}
